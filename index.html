@@ -1,156 +1,195 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Fullstack Junior - Ahlem Allagui</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Fullstack Junior - Ahlem Allagui</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="IMG_0728.JPG" alt="Photo de profil" />
+        <h1>Salut, je suis <span>Ahlem Allagui</span></h1>
+        <p>Développeuse Fullstack Python, JavaScript & IA</p>
+        <div class="buttons">
+          <a href="#skills" class="btn">Compétences</a>
+          <a href="#projects" class="btn">Mes projets</a>
+          <a href="mailto:allagui.ahlem.dev@gmail.com" class="btn"
+            >Me contacter</a
+          >
+        </div>
+      </div>
 
-<div class="container">
-
-  <div class="header">
-    <img src="IMG_0728.JPG" alt="Photo de profil">
-    <h1>Salut, je suis <span>Ahlem Allagui</span></h1>
-    <p>Développeuse Fullstack Python, JavaScript & IA</p>
-    <div class="buttons">
-      <a href="#skills" class="btn">Compétences</a>
-      <a href="#projects" class="btn">Mes projets</a>
-      <a href="mailto:allagui.ahlem.dev@gmail.com" class="btn">Me contacter</a>
-    </div>
-  </div>
-
-
-  <section id="about">
-    <h2>À propos</h2>
-    <p>
-      Passionnée par le développement web et l’intelligence artificielle, j'aime créer des applications performantes et intuitives. 
-      J'ai de l'expérience en Python (Flask, FastAPI), JavaScript (React) et IA avec Python. 
-      Je suis autonome, curieuse et motivée pour apprendre et développer mes compétences dans des projets innovants.
-    </p>
-  </section>
-
-
-  <section id="skills">
-    <h2>Compétences</h2>
-    <div class="skills">
-
-      <span>Python</span>
-      <span>Flask</span>
-      <span>FastAPI</span>
-
- 
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
-      <span>React</span>
-
-      <span>IA (Python)</span>
-
-  
-      <span>PostgreSQL</span>
-      <span>SQLite</span>
-
- 
-      <span>Git / GitHub</span>
-    </div>
-  </section>
-
- 
-  <section id="projects">
-    <h2>Mes Projets</h2>
-    <div class="projects">
-
- <!-- Projet Flask avec CRUD complet -->
-      <div class="project-card fade-in">
-        <h3>Gestionnaire d’utilisateurs – Flask</h3>
-      <div class="project-images">
-  <figure>
-    <img src="images/flask-list.png" alt="Liste utilisateurs">
-    <figcaption>Liste utilisateurs</figcaption>
-  </figure>
-
-  <figure>
-    <img src="images/flask-add.png" alt="Ajout utilisateur">
-    <figcaption>Ajout utilisateur</figcaption>
-  </figure>
-
-  <figure>
-    <img src="images/flask-confirm-delete.png" alt="Suppression utilisateur">
-    <figcaption>Suppression utilisateur</figcaption>
-  </figure>
-
-  <figure>
-    <img src="images/flask-update.png" alt="Modification utilisateur">
-    <figcaption>Modification utilisateur</figcaption>
-  </figure>
-        <p class="description">
-          Application web fullstack avec CRUD complet, base SQLite, validation formulaire et architecture MVC.
+      <section id="about">
+        <h2>À propos</h2>
+        <p>
+          Passionnée par le développement web et l’intelligence artificielle,
+          j'aime créer des applications performantes et intuitives. J'ai de
+          l'expérience en Python (Flask, FastAPI), JavaScript (React) et IA avec
+          Python. Je suis autonome, curieuse et motivée pour apprendre et
+          développer mes compétences dans des projets innovants.
         </p>
-        <div class="tech">
+      </section>
+
+      <section id="skills">
+        <h2>Compétences</h2>
+        <div class="skills">
           <span>Python</span>
           <span>Flask</span>
-          <span>SQLAlchemy</span>
-          <span>HTML/CSS</span>
-        </div>
-      </div>
-        <div class="buttons">
-          <a href="https://github.com/AhlemAllagui/Application-fullsatck.git" class="btn">Voir le code</a>
-          <a href="#" class="btn disabled">Voir en ligne</a>
-        </div>
-      </div>
+          <span>FastAPI</span>
 
-      <!-- Projet JavaScript interactif -->
-      <div class="project-card fade-in">
-        <h3>Jeu interactif – JavaScript</h3>
-        <div class="project-images">
-          <img src="images/image-jeux-js.png" alt="Projet JS">
-        </div>
-        <p class="description">
-          Petit jeu interactif codé en JavaScript avec animations et logique front-end dynamique.
-        </p>
-        <div class="tech">
-          <span>JavaScript</span>
           <span>HTML</span>
           <span>CSS</span>
-        </div>
-        <div class="buttons">
-          <a href="https://github.com/AhlemAllagui/jeux-tir-javascript-.git" class="btn">Voir le code</a>
-          <a href="https://ahlemallagui.github.io/jeux-tir-javascript-/" class="btn" target="_blank">Voir en ligne</a>
-        </div>
-      </div>
+          <span>JavaScript</span>
+          <span>React</span>
 
-      <!-- Projet Python / IA en cours -->
-
- <div class="project-card fade-in">
-        <h3>Assistant IA – Python (en cours)</h3>
-        <div class="project-images">
-          <img src="images/ia-placeholder.png" alt="Projet IA">
-        </div>
-        <p class="description">
-          Projet en cours : créer un chatbot ou générateur de texte avec Python pour appliquer mes compétences IA.
-        </p>
-        <div class="tech">
-          <span>Python</span>
-          <span>Flask</span>
           <span>IA (Python)</span>
-        </div>
-        <div class="buttons">
-          <a href="#" class="btn disabled">Voir le code</a>
-          <a href="#" class="btn disabled">Voir en ligne</a>
-        </div>
-      </div>
 
+          <span>PostgreSQL</span>
+          <span>SQLite</span>
+
+          <span>Git / GitHub</span>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Mes Projets</h2>
+        <div class="projects">
+          <!-- Projet Flask avec CRUD complet -->
+          <div class="project-card fade-in">
+            <h3>Gestionnaire d’utilisateurs – Flask</h3>
+            <div class="project-images">
+              <figure>
+                <img src="images/flask-list.png" alt="Liste utilisateurs" />
+                <figcaption>Liste utilisateurs</figcaption>
+              </figure>
+
+              <figure>
+                <img src="images/flask-add.png" alt="Ajout utilisateur" />
+                <figcaption>Ajout utilisateur</figcaption>
+              </figure>
+
+              <figure>
+                <img
+                  src="images/flask-confirm-delete.png"
+                  alt="Suppression utilisateur"
+                />
+                <figcaption>Suppression utilisateur</figcaption>
+              </figure>
+
+              <figure>
+                <img
+                  src="images/flask-update.png"
+                  alt="Modification utilisateur"
+                />
+                <figcaption>Modification utilisateur</figcaption>
+              </figure>
+              <p class="description">
+                Application web fullstack avec CRUD complet, base SQLite,
+                validation formulaire et architecture MVC.
+              </p>
+              <div class="tech">
+                <span>Python</span>
+                <span>Flask</span>
+                <span>SQLAlchemy</span>
+                <span>HTML/CSS</span>
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                href="https://github.com/AhlemAllagui/Application-fullsatck.git"
+                class="btn"
+                >Voir le code</a
+              >
+              <a href="#" class="btn disabled">Voir en ligne</a>
+            </div>
+          </div>
+
+          <!-- Projet JavaScript interactif -->
+          <div class="project-card fade-in">
+            <h3>Jeu interactif – JavaScript</h3>
+            <div class="project-images">
+              <img src="images/image-jeux-js.png" alt="Projet JS" />
+            </div>
+            <p class="description">
+              Petit jeu interactif codé en JavaScript avec animations et logique
+              front-end dynamique.
+            </p>
+            <div class="tech">
+              <span>JavaScript</span>
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+            <div class="buttons">
+              <a
+                href="https://github.com/AhlemAllagui/jeux-tir-javascript-.git"
+                class="btn"
+                >Voir le code</a
+              >
+              <a
+                href="https://ahlemallagui.github.io/jeux-tir-javascript-/"
+                class="btn"
+                target="_blank"
+                >Voir en ligne</a
+              >
+            </div>
+          </div>
+
+          <!-- Projet Python / IA  -->
+
+          <div class="project-card fade-in">
+            <h3>Assistant IA – Python</h3>
+            <div class="project-card fade-in">
+              <div class="project-images">
+                <figure>
+                  <img src="images/chatbot_hf.png" alt="Assistant IA" />
+                  <figcaption>Assistant IA avant utilisation</figcaption>
+                </figure>
+                <figure>
+                  <img
+                    src="images/diaologue_bot.png"
+                    alt="diaologue_bot"
+                  />
+                  <figcaption>Dialogue entre l'utilisateur et l'assistant IA</figcaption>
+                </figure>
+                <p class="description">
+                  Projet en cours : créer un chatbot ou générateur de texte avec
+                  Python pour appliquer mes compétences IA.
+                </p>
+                <div class="tech">
+                  <span>Python</span>
+                  <span>Flask</span>
+                  <span>IA /Hugging face</span>
+                  <span>HTML/CSS</span>
+                </div>
+              </div>
+                <div class="buttons">
+              <a
+                href="https://github.com/AhlemAllagui/chatbot_hf.git"
+                class="btn"
+                >Voir le code</a
+              >
+              <a
+                href="https://allaguiahlem.pythonanywhere.com"
+                class="btn"
+                target="_blank"
+                >Voir en ligne</a
+              >
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-  </section>
 
-</div>
+    <footer>
+      <p>
+        © 2025 Ahlem Allagui |
+        <a href="https://github.com/AhlemAllagui" target="_blank">GitHub</a>
+      </p>
+    </footer>
 
-<footer>
-  <p>© 2025 Ahlem Allagui | <a href="https://github.com/AhlemAllagui" target="_blank">GitHub</a></p>
-</footer>
-
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
